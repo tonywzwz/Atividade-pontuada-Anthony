@@ -21,7 +21,6 @@ programa {
  }
 senao {escreva("\nObrigado pelas informações!")}
 
-//Exibindo resultados.
 limpa()
 escreva("nome: ", nome)
 escreva("\nsexo: ", sexo)
