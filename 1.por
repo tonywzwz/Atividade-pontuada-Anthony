@@ -1,28 +1,24 @@
 programa {
   funcao inicio() {
-    
-  //Declarando variaveis.
 
   real primeiroNumero, segundoNumero, terceiroNumero
 
   real soma
 
-  //Reunindo dados.
-
-  escreva("\nDigite o Primeiro Número: ")
+  escreva("\nDigite o Primeiro NÃºmero: ")
   leia(primeiroNumero)
 
-  escreva("\nDigite o Segundo Número: ")
+  escreva("\nDigite o Segundo NÃºmero: ")
   leia(segundoNumero)
 
-  escreva("\nDigite o Terceiro Número: ")
+  escreva("\nDigite o Terceiro NÃºmero: ")
   leia(terceiroNumero)
 
   se (primeiroNumero + segundoNumero < terceiroNumero) {
-    escreva("\nA soma é menor que o terceiro número.")
+    escreva("\nA soma Ã© menor que o terceiro nÃºmero.")
   }
   senao { 
-    escreva("\nO terceiro número é maior que a soma.")
+    escreva("\nO terceiro nÃºmero Ã© maior que a soma.")
   }
 
   
