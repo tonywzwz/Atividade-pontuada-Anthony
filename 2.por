@@ -1,13 +1,10 @@
 programa {
   funcao inicio() {
-    
- //solicitando dados.
 
  cadeia sexo
  cadeia nome 
  cadeia estadoCivil
  cadeia casada
- //obtendo informações.
 
  escreva("Digite seu nome: ")
  leia(nome)
@@ -19,10 +16,10 @@ programa {
  leia(estadoCivil)
 
  se (sexo == "F" e estadoCivil == "casada") {
-  escreva("Digite a quanto tempo você é casada: ")
+  escreva("Digite a quanto tempo vocÃª Ã© casada: ")
   leia(casada)
  }
-senao {escreva("\nObrigado pelas informações!")}
+senao {escreva("\nObrigado pelas informaÃ§Ãµes!")}
 
 //Exibindo resultados.
 limpa()
