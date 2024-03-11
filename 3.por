@@ -1,36 +1,34 @@
 programa {
   funcao inicio() {
-    
- //exibindo variaveis.
 
  inteiro primeiroNumero, segundoNumero, terceiroNumero
  real soma, multiplicacao
 
- escreva("Digite o Primeiro número: ")
+ escreva("Digite o Primeiro nÃºmero: ")
  leia(primeiroNumero)
 
- escreva("Digite o Segundo número: ")
+ escreva("Digite o Segundo nÃºmero: ")
  leia(segundoNumero)
 
  se (primeiroNumero == segundoNumero) {
   soma = primeiroNumero + segundoNumero
- escreva("A soma dos numeros é : ", soma)
+ escreva("A soma dos numeros Ã© : ", soma)
  
  soma == terceiroNumero
 
- escreva("\nTerceiro número igual : ", soma)
+ escreva("\nTerceiro nÃºmero igual : ", soma)
 }
 
 senao {
 
   multiplicacao = primeiroNumero * segundoNumero
 
-escreva("A Multiplicação dos números é: ", multiplicacao)
+escreva("A MultiplicaÃ§Ã£o dos nÃºmeros Ã©: ", multiplicacao)
   
 
  multiplicacao == terceiroNumero
 
- escreva("\nTerceiro número: ", multiplicacao)
+ escreva("\nTerceiro nÃºmero: ", multiplicacao)
 
 }
 
